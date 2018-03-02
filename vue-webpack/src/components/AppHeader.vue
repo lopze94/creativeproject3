@@ -26,6 +26,7 @@
  }
   nav.active {
      border: none;
+     outline: none;
  }
  ul {
      list-style-type:none;
@@ -51,6 +52,7 @@
  /*Active color*/
  li a.active {
    color: #3ab6e8;
+   outline: none;
  }
  /*Hover state for top level links*/
  li:hover a {
