@@ -32,6 +32,7 @@
 
  /*Create a horizontal list with spacing*/
  li {
+   text-decoration: none;
      display:inline-block;
      float: left;
      margin-right: 1px;
