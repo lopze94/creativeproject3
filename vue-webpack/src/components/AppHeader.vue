@@ -24,6 +24,9 @@
  nav {
      display: grid;
  }
+  nav:focus {
+     border: none;
+ }
  ul {
      list-style-type:none;
      margin:0;
