@@ -1,13 +1,13 @@
 <template>
   <div>
     <h1>Contact</h1>
+    <br>
     <h2>Email</h2>
     <p>{{ email }}</p>
     <h2>Phone</h2>
     <p>{{ phone }}</p>
     <h2>Address</h2>
-    <p>{{ address }}</p>
-    <p>{{ city }}, {{ state }} {{ zipCode }}</p>
+    <p>{{ address }}<br>{{ city }}, {{ state }} {{ zipCode }}</p>
     <br>
     <img v-bind:src="imagePath"/>
   </div>
