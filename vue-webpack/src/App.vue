@@ -1,13 +1,16 @@
 <template>
-  <div id="app">
-    <router-view/>
-  </div>
+    <div id="app">
+	<app-header></app-header>
+	<router-view/>
+    </div>
 </template>
 
 <script>
-export default {
-  name: 'App'
-}
+ import AppHeader from './components/AppHeader.vue'
+ export default {
+     name: 'App',
+     components: { AppHeader }
+ }
 </script>
 
 <style>
@@ -19,3 +22,5 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 </style>
+
+

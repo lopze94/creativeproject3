@@ -1,9 +1,10 @@
 <template>
-    <nav>
+     <nav>
 	<label for="show-menu" class="show-menu">Show Menu</label>
 	<input type="checkbox" id="show-menu" role="button">
         <ul id="menu">
 	    <li><router-link to="/">Home</router-link></li>
+	    <li><router-link to="/todo">Todo</router-link></li>
 	    <li><router-link to="/profile">Profile</router-link></li>
 	</ul>	
     </nav>
