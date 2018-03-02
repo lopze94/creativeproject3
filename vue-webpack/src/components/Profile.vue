@@ -31,6 +31,12 @@
 </script>
 
 <style scoped>
+ h1 {
+     font-size: 2.5em;
+     letter-spacing: .2rem;
+     color: #999;
+     margin-bottom: 2px;
+ }
  img {
      max-width: 500px;
  }
