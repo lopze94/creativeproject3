@@ -1,6 +1,6 @@
 <template>
     <div class="hero">
-	<h1>Simplify Your Life</h1>
+	<h1>Cultura Bakery</h1>
 	<img v-bind:src="imagePath"/>
     </div>
 </template>
@@ -17,7 +17,7 @@
 </script>
 
 <style scoped>
- body {
+ html, body {
      padding: 0px;
      margin: 0px;
  }
