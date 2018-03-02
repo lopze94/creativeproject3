@@ -39,6 +39,6 @@
      text-align: center;
  }
  img {
-     max-width: 500px;
+     width: 100%;
  }
 </style>
