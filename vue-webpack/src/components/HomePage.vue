@@ -1,6 +1,8 @@
 <template>
     <div class="hero">
 	<h1>Cultura Bakery</h1>
+    <p>La historia detrás de cada platillo es la esencia de nuestra cocina, pasión por los sabores, por el arte, la creación y por la perfección absoluta</p>
+    <br>
 	<img v-bind:src="imagePath"/>
     </div>
 </template>
