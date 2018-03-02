@@ -7,8 +7,8 @@
     <p>{{ phone }}</p>
     <h2>Address</h2>
     <p>{{ address }}</p>
-    <p>{{ city }}</p>
-    <p>{{ state }} {{ zipCode }}</p>
+    <p>{{ city }}, {{ state }} {{ zipCode }}</p>
+    <br>
     <img v-bind:src="imagePath"/>
   </div>
 </template>
