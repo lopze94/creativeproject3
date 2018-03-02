@@ -47,9 +47,11 @@
  }
  /*Active color*/
  li a.active {
+   color: #3ab6e8;
  }
  /*Hover state for top level links*/
  li:hover a {
+   color: #3ab6e8;
  }
  /*Style 'show menu' label button and hide it by default*/
  .show-menu {
