@@ -36,6 +36,7 @@
      letter-spacing: .2rem;
      color: #999;
      margin-bottom: 2px;
+     text-align: center;
  }
  img {
      max-width: 500px;
