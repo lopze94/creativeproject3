@@ -1,6 +1,7 @@
 <template>
     <div class="hero">
 	<h1>Menu</h1>
+  <br>
 	<img v-bind:src="imagePath"/>
     </div>
 </template>
