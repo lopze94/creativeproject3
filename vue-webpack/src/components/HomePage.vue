@@ -10,7 +10,7 @@
      name: 'HomePage',
      data () {
 	 return {
-	     imagePath: '/static/images/cloud.jpg'
+	     imagePath: '/static/images/bread.jpg'
 	 }
      }
  }
