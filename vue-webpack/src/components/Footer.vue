@@ -29,7 +29,7 @@
   export default {
     name: 'AppFooter',
     data: () => ({
-      icons: ['fa-facebook', 'fa-twitter', 'fa-google-plus', 'fa-linkedin', 'fa-instagram']
+      icons: ['fa-github']
     })
   }
 </script>
