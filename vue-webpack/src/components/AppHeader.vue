@@ -24,7 +24,7 @@
  nav {
      display: grid;
  }
-  nav:focus {
+  nav.active {
      border: none;
  }
  ul {
@@ -50,7 +50,6 @@
  }
  /*Active color*/
  li a.active {
-   border: none;
    color: #3ab6e8;
  }
  /*Hover state for top level links*/
