@@ -1,7 +1,7 @@
 <template>
     <div class="hero">
 	<h1>Menu</h1>
-	<img v-bind:src="imagePath1"/>
+	<img v-bind:src="imagePath"/>
     </div>
 </template>
 
@@ -10,7 +10,7 @@
      name: 'Menu',
      data () {
 	 return {
-	     imagePath1: '/static/images/menu1.jpg'
+	     imagePath: '/static/images/menu1.jpg'
 	 }
      }
  }

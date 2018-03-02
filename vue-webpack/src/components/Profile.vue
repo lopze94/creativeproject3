@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Profile</h1>
+    <h1>Contact</h1>
     <h2>{{ name }}</h2>
     <img v-bind:src="imagePath"/>
   </div>
@@ -12,7 +12,7 @@
    data () {
      return {
        name: 'Road Runner',
-       imagePath: '/static/images/road-runner.jpg'
+       imagePath: '/static/images/cultura.jpg'
      }
    }
  }
